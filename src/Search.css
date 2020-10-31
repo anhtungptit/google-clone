@@ -1,0 +1,36 @@
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    border-radius: 999px;
+    padding: 10px 20px;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 50vw;
+}
+.search__input > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.search__inputIcon {
+    color: gray;
+}
+.search__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search__buttons button {
+    margin: 5px;
+    padding: 7px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid white;
+    color: #5f6368;
+}
+.search__buttonsHidden {
+    display: none !important;
+}
